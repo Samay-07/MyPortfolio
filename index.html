@@ -182,7 +182,7 @@
   <div class="box-container">
 
       <!-- Creatives -->
- <div class="box tilt" onclick="openGlassPopup()">
+ <div class="box tilt" onclick="openREPopup()">
   <img src="./assets/images/RE.png" alt="Creatives">
   <div class="content">
     <div class="tag"><h3>Creatives</h3></div>
@@ -193,7 +193,7 @@
 </div>
 
 <!-- Popup Modal -->
-<div id="glassPopup" style="
+<div id="rePopup" style="
   display: none;
   position: fixed;
   top: 0; left: 0;
@@ -213,7 +213,7 @@
     ">
 
     <!-- Navigation Buttons -->
-    <button onclick="prevGlass()" style="
+    <button onclick="prevRE()" style="
       position: absolute;
       top: 50%; left: -60px;
       transform: translateY(-50%);
@@ -228,7 +228,7 @@
       transition: 0.3s;
     ">&#10094;</button>
 
-    <button onclick="nextGlass()" style="
+    <button onclick="nextRE()" style="
       position: absolute;
       top: 50%; right: -60px;
       transform: translateY(-50%);
@@ -244,7 +244,7 @@
     ">&#10095;</button>
 
     <!-- Close Button -->
-    <button onclick="closeGlassPopup()" style="
+    <button onclick="closeREPopup()" style="
       position: absolute;
       top: -50px; right: 0;
       background: rgba(255,255,255,0.3);
